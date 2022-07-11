@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    tools:context=".FragmentUno">
+
+    <TextView
+        android:id="@+id/textox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Producto"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout1"
+        android:layout_marginLeft="95dp"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textos"
+        android:padding="2dp"
+        android:textAlignment="center"
+        android:text="Cerveza"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout1"
+        android:textAlignment="center"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textos"
+        android:text="Pisco"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textox2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/cerveza"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/cervezas" />
+
+        <ImageView
+            android:id="@+id/pisco"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/piscope" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout2"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textos"
+        android:text="Whisky"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout2"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textos"
+        android:text="Ron"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout1"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+        <ImageView
+            android:id="@+id/wisky"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/wisky"/>
+        <ImageView
+            android:id="@+id/rones"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/rones"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout3"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textos"
+        android:text="Tragos"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout3"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="237dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textos"
+        android:text="Energizante"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout2"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+        <ImageView
+            android:id="@+id/tragos"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/trago"/>
+        <ImageView
+            android:id="@+id/energizante"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/energizantes"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout4"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textos"
+        android:text="Gaseosas"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout4"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textos"
+        android:text="Aguas"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+    <LinearLayout
+        android:id="@+id/linear_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout3"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+        <ImageView
+            android:id="@+id/gaseosas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/gaseosa"/>
+
+        <ImageView
+            android:id="@+id/agua"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/aguas"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
